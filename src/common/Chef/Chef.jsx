@@ -1,4 +1,5 @@
 import React from 'react';
+import './Chef.css'
 
 export const Chef = () => {
     return (
@@ -8,7 +9,7 @@ export const Chef = () => {
           style={{ backgroundImage: `url('../src/img/panadera.jpg')` }}
         >
           <div className="letter-container">
-            <h1>TEXTO</h1>
+            <h1>Cocas artesanas sostenibles</h1>
           </div>
         </div>
       </div>

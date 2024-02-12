@@ -4,12 +4,12 @@
   font-family: "Agbalumo", cursive;
   height: 10vh;
   width: 100vw;
+  margin-bottom: 1em;
 }
 
 .headerLogo {
   height: 7em;
   width: 20em;
-  filter: drop-shadow(0 1px 1px gold);
 }
 
 .headerLogo:hover {

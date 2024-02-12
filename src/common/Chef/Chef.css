@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
 .chefHeader {
   position: relative;
   height: 34em;
@@ -6,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 4em;
 }
 
 .background-chef {
@@ -22,5 +25,6 @@
 }
 
 .letter-container{
-    height: 35vh;
+    color: #58d0c7;
+    font-family: "Agbalumo", cursive;
 }
