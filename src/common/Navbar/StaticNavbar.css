@@ -7,8 +7,8 @@
 }
 
 .headerLogo {
-  height: 4em;
-  width: 3.2em;
+  height: 7em;
+  width: 20em;
   filter: drop-shadow(0 1px 1px gold);
 }
 
@@ -18,7 +18,7 @@
 }
 
 .blueColour {
-  color: gold;
+  color: greenyellow;
 }
 
 .text-navbar {
