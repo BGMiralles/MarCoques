@@ -9,13 +9,13 @@ export const Products = () => {
       <div className="product">
         <img src={coca_anchoa} alt="Imagen 1" />
         <div className="product-text">
-          <h2>Producto 1</h2>
+          <h2>Coca anchoas</h2>
         </div>
       </div>
       <div className="product">
         <img src={coca_pi} alt="Imagen 2" />
         <div className="product-text">
-          <h2>Producto 2</h2>
+          <h2>Coca</h2>
         </div>
       </div>
       <div className="product">
