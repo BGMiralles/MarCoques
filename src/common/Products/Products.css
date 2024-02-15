@@ -10,6 +10,7 @@
     position: relative;
     width: calc(46% - 20px);
     margin-bottom: 20px;
+    background-color: green;
   }
   
   .product img {

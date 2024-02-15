@@ -2,6 +2,8 @@ import React from 'react';
 import './Products.css';
 import coca_anchoa from '../../img/coca_anchoa.jpg';
 import coca_pi from '../../img/coca_pi.jpg'
+import choco from '../../img/choco.jpg';
+import frutos from '../../img/frutos.jpg';
 
 export const Products = () => {
   return (
@@ -19,15 +21,15 @@ export const Products = () => {
         </div>
       </div>
       <div className="product">
-        <img src="imagen3.jpg" alt="Imagen 3" />
+        <img src={choco} alt="Imagen 3" />
         <div className="product-text">
-          <h2>Producto 3</h2>
+          <h2>Coca chocolate</h2>
         </div>
       </div>
       <div className="product">
-        <img src="imagen4.jpg" alt="Imagen 4" />
+        <img src={frutos} alt="Imagen 4" />
         <div className="product-text">
-          <h2>Producto 4</h2>
+          <h2>Coca frutos secos</h2>
         </div>
       </div>
     </div>
