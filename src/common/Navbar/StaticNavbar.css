@@ -4,30 +4,26 @@
   font-family: "Agbalumo", cursive;
   height: 10vh;
   width: 100vw;
+  margin-bottom: 5em;
 }
 
 .headerLogo {
-  height: 4em;
-  width: 3.2em;
-  filter: drop-shadow(0 1px 1px gold);
-}
-
-.headerLogo:hover {
-  cursor: pointer;
-  scale: 1.05;
+  height: 7em;
+  width: 20em;
 }
 
 .blueColour {
-  color: gold;
+  color: greenyellow;
 }
 
 .text-navbar {
   font-size: 1.5em;
-  color: white;
+  color: #5d8874;
 }
 
 .navbar-links{
-  justify-content: space-between;
+  justify-content:space-evenly;
+  display: flex;
 }
 
 .text-navbar-title {
@@ -36,7 +32,7 @@
 
 .items-navbar:hover {
   cursor: pointer;
-  color: gold;
+  color: #58d0c7;
 }
 
 .navbar-toggler-icon {

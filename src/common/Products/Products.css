@@ -1,0 +1,33 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .product {
+    position: relative;
+    width: calc(46% - 20px);
+    margin-bottom: 20px;
+    background-color: #ae4e7c;
+  }
+  
+  .product img {
+    width: 80%;
+    height: 25em;
+    margin-top: 2em;
+  }
+  
+  .product-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(107,6,108, 0.5);
+    color: 
+    white;
+    text-align: center;
+    padding: 10px;
+  }
+  

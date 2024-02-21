@@ -10,10 +10,7 @@ export const StaticNavbar = () => {
     <Navbar expand="lg" className="bg-dark navbarStatic fixed-top">
       <Container className="container-navbar">
         <Navbar.Brand>
-          <img className="headerLogo" src={"../src/img/logo.png"} alt="Logo" />
-        </Navbar.Brand>
-        <Navbar.Brand className="text-white text-navbar-title" href="/">
-          ROCKET <span className="blueColour">TATTOO</span>
+          <img className="headerLogo" src={"../src/img/logo_coques.png"} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-links">
