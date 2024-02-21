@@ -11,25 +11,25 @@ export const Products = () => {
       <div className="product">
         <img src={coca_anchoa} alt="Imagen 1" />
         <div className="product-text">
-          <h2>Coca anchoas</h2>
+          <h2>Coca de mullador con anchoas </h2>
         </div>
       </div>
       <div className="product">
         <img src={coca_pi} alt="Imagen 2" />
         <div className="product-text">
-          <h2>Coca</h2>
+          <h2>Coca de tomate con piñones</h2>
         </div>
       </div>
       <div className="product">
         <img src={choco} alt="Imagen 3" />
         <div className="product-text">
-          <h2>Coca chocolate</h2>
+          <h2>Coca de chocolate</h2>
         </div>
       </div>
       <div className="product">
         <img src={frutos} alt="Imagen 4" />
         <div className="product-text">
-          <h2>Coca frutos secos</h2>
+          <h2>Coca de crema pastelera con piñones</h2>
         </div>
       </div>
     </div>
