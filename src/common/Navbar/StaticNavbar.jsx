@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./StaticNavbar.css";
+import logo from "../../img/logo_coques.png";
 
 export const StaticNavbar = () => {
 
@@ -10,7 +11,7 @@ export const StaticNavbar = () => {
     <Navbar expand="lg" className="bg-dark navbarStatic fixed-top">
       <Container className="container-navbar">
         <Navbar.Brand>
-          <img className="headerLogo" src={"../src/img/logo_coques.png"} alt="Logo" />
+          <img className="headerLogo" src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-links">
