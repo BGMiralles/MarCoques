@@ -1,7 +1,7 @@
 import React from "react";
 import { Chef } from "../../common/Chef/Chef";
 import { Products } from "../../common/Products/Products";
-import { Footer } from "../../common/footer/footer";
+import { Footer } from "../../common/Footer/Footer";
 
 export const Home = () => {
     return (
@@ -11,4 +11,4 @@ export const Home = () => {
             <Footer />
         </div>
     );
-    }
+}
